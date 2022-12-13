@@ -8,4 +8,4 @@ https://www.figma.com/file/JbtLhzJFcJWRgtmIVL778H/ToDoApp-final?node-id=0%3A1&t=
 
 ## deploy
 
-https://gidoldory.github.io/react-todo-solo-project/alllist
+https://gidoldory.github.io/react-todo-solo-project/
