@@ -30,6 +30,10 @@ button {
 	border: none;
 }
 
+input {
+	font-size: 0.9rem;
+}
+
 .app {
 	width: 375px;
 	height: 600px;
