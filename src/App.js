@@ -18,9 +18,9 @@ function App() {
 				<Header />
 				<main>
 					<Routes>
-						<Route exact path="/" element={<TodoGroupList />} />
-						<Route path="/alllist" element={<TodoAllList />} />
-						<Route path="/itemlist/:groupId" element={<TodoItemList />} />
+						<Route exact path="./" element={<TodoGroupList />} />
+						<Route path="./alllist" element={<TodoAllList />} />
+						<Route path="./itemlist/:groupId" element={<TodoItemList />} />
 					</Routes>
 				</main>
 			</div>
