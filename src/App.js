@@ -10,7 +10,7 @@ function App() {
 	// console.log('--App render--');
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className="app">
 				{/* <div className="fade-out-box">
 				<img id="intro_img" src={`${process.env.PUBLIC_URL}/intro.png`} />
