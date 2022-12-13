@@ -12,15 +12,12 @@ function App() {
 	return (
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className="app">
-				{/* <div className="fade-out-box">
-				<img id="intro_img" src={`${process.env.PUBLIC_URL}/intro.png`} />
-			</div> */}
 				<Header />
 				<main>
 					<Routes>
-						<Route exact path="./" element={<TodoGroupList />} />
-						<Route path="./alllist" element={<TodoAllList />} />
-						<Route path="./itemlist/:groupId" element={<TodoItemList />} />
+						<Route exact path="/" element={<TodoGroupList />} />
+						<Route path="/alllist" element={<TodoAllList />} />
+						<Route path="/itemlist/:groupId" element={<TodoItemList />} />
 					</Routes>
 				</main>
 			</div>
