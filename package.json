@@ -2,7 +2,6 @@
   "name": "react-todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gidoldory.github.io/react-todo-solo-project",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
@@ -44,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://gidoldory.github.io"
+  "proxy": "https://gidoldory.github.io/react-todo-solo-project"
 }
