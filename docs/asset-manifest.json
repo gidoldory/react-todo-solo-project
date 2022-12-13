@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-todo-solo-project/static/css/main.25ea1356.css",
+    "main.css": "/react-todo-solo-project/static/css/main.85e35ffe.css",
     "main.js": "/react-todo-solo-project/static/js/main.f47db21c.js",
     "static/js/787.26c46cee.chunk.js": "/react-todo-solo-project/static/js/787.26c46cee.chunk.js",
     "index.html": "/react-todo-solo-project/index.html",
-    "main.25ea1356.css.map": "/react-todo-solo-project/static/css/main.25ea1356.css.map",
+    "main.85e35ffe.css.map": "/react-todo-solo-project/static/css/main.85e35ffe.css.map",
     "main.f47db21c.js.map": "/react-todo-solo-project/static/js/main.f47db21c.js.map",
     "787.26c46cee.chunk.js.map": "/react-todo-solo-project/static/js/787.26c46cee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ea1356.css",
+    "static/css/main.85e35ffe.css",
     "static/js/main.f47db21c.js"
   ]
 }

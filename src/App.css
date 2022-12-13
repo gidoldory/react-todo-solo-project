@@ -54,6 +54,7 @@ header {
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
+	background-color: var(--white-color);
 	border-bottom: 2px solid var(--main-blue-color);
 }
 
