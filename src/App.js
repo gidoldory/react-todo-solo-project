@@ -7,8 +7,6 @@ import TodoAllList from './pages/TodoAllList';
 import TodoItemList from './pages/TodoItemList';
 
 function App() {
-	// console.log('--App render--');
-
 	return (
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className="app">
