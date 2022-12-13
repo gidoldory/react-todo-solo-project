@@ -1,6 +1,6 @@
 ## preview
 
-![todo-solo-project](https://user-images.githubusercontent.com/111366402/207260152-17e5c377-aeed-4fee-9e6c-9b26bfd2336a.gif)
+![todo-solo-project-final](https://user-images.githubusercontent.com/111366402/207342482-0db67a6f-4acf-48ef-808a-42bb327e0ad9.gif)
 
 ## figma
 
