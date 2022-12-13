@@ -15,13 +15,13 @@ const ModalContainer = styled.div`
 `;
 
 const ModalBox = styled.div`
-	top: 200px;
-	left: 50%;
+	top: 80px;
+	left: 50px;
+	/* transform: translate(-50%, -50%); */
 	position: absolute;
 	width: 275px;
 	height: 220px;
 	overflow: hidden;
-	transform: translate(-50%, -50%);
 	border-radius: 10px;
 	border: 2px solid var(--main-blue-color);
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);

@@ -2,11 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import TodoTopText from '../img/todo_top_text.png';
 import { useState } from 'react';
-import useScrollTop from '../util/useScrollTop';
 import TodoGroupFormModal from './TodoGroupFormModal';
 
 const Header = () => {
-	useScrollTop();
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const modalClose = () => {
 		setIsModalOpen(false);

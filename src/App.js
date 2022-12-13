@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import styled from 'styled-components';
+import ScrollTop from './components/ScrollTop.js';
 import Header from './components/Header';
 import TodoGroupList from './pages/TodoGroupList';
 import TodoAllList from './pages/TodoAllList';
@@ -9,6 +9,7 @@ import TodoItemList from './pages/TodoItemList';
 function App() {
 	return (
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<ScrollTop />
 			<div className="app">
 				<Header />
 				<main>
