@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+:root {
+	--main-blue-color: #0273dc; /* rgb(2, 115, 220)*/
+	--main-button-color: #b0d8ff;
+	--white-color: #FFFFFF;
+	--title-bg-color: #e7f3ff;
+	--list-line-color: #dddddd;
+	--flag-bg-color: #f99400;
+	--done-bg-color: #4DA806;
+	--del-bg-color: #FF0000;
+	--list-icon-thema1: #07A3FB;
+	--list-icon-thema2: #A651E9;
+	--list-icon-thema3: #E1A60D;
+	--list-icon-thema4: #52B822;
+	--list-icon-thema5: #F86BD0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+	text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+	cursor: pointer;
+	outline: none;
+	border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+	width: 375px;
+	height: 600px;
+	background-color: var(--white-color);
+	padding-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+	width: 375px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 2px solid var(--main-blue-color);
+}
+
+header > button {
+	outline: none;
+	border: none;
+}
+
+.top_text {
+	width: 153px;
+	height: 28px;
+}
+
+.btn_search {
+	font-size: 1.7rem;
+	color: var(--main-blue-color);
+	background-color: var(--white-color);
+}
+
+.btn_group_add {
+	font-size: 1.2rem;
+	font-weight: 1000;
+	color: var(--white-color);
+	padding: 3px 6px 3px 6px;
+	border: none;
+	border-radius: 5px;
+	background-color: var(--main-blue-color);
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	/* display: flex;
+	flex-direction: column; */
+	overflow: auto;
+}
+
+/**** TodoItemList ****/
+.todolist_item, .todolist_item_form {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 10px;
+	border-bottom: 1px solid var(--list-line-color);
+}
+
+.focusLine {
+	border-bottom: 1px solid var(--main-blue-color);
+}
+
+.todolist_item_checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+.todolist_item_text, .todolist_item > label {
+	flex-grow: 1;
+	margin: 0 5px 0 5px;
+	height: 35px;
+	outline: none;
+	border: 0;
+}
+
+.done {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.todolist_item_btn {
+	width: 60px;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.todolist_item_text_new {
+	width: 100%;
+	height: 35px;
+	margin: 0 20px 0 25px;
+	outline: none;
+	border: none;	
+}
+
+.fade-out-box {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	animation: fadeout 3s;
+	-moz-animation: fadeout 3s; /* Firefox */
+	-webkit-animation: fadeout 3s; /* Safari and Chrome */
+	-o-animation: fadeout 3s; /* Opera */
+	animation-fill-mode: forwards;
+	/* background: yellow; */
+}
+@keyframes fadeout {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-moz-keyframes fadeout {
+	/* Firefox */
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes fadeout {
+	/* Safari and Chrome */
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+@-o-keyframes fadeout {
+	/* Opera */
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
