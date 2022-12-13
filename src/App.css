@@ -28,10 +28,11 @@ button {
 	cursor: pointer;
 	outline: none;
 	border: none;
+	font-size: 1rem;
 }
 
 input {
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .app {

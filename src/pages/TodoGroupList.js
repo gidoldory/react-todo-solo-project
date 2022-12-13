@@ -21,7 +21,6 @@ const MainBtnContainer = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1rem;
 		cursor: pointer;
 		border: none;
 		background-color: var(--main-button-color);
@@ -59,7 +58,6 @@ const GroupItem = styled.li`
 	> div {
 		display: flex;
 		align-items: center;
-		font-size: 0.93rem;
 
 		&.todo_group_item_name {
 			flex-grow: 1;

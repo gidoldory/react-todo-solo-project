@@ -44,7 +44,6 @@ const ModalBox = styled.div`
 			color: var(--main-blue-color);
 			border: none;
 			outline: none;
-			font-size: 0.9rem;
 			background-color: var(--title-bg-color);
 		}
 	}
@@ -73,7 +72,6 @@ const ModalBox = styled.div`
 			height: 40px;
 			border-radius: 8px;
 			border: none;
-			font-size: 1rem;
 			text-align: center;
 			background-color: #eeeeee;
 		}
