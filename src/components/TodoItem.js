@@ -11,14 +11,15 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
 	margin-right: 10px;
 	text-align: right;
 	color: #f99400;
+	font-size: 1rem;
 `;
 
 const EditButton = styled.button`
-	width: 30px;
+	width: 40px;
 	height: 100%;
+	padding: 10px;
 	color: var(--white-color);
 	border: none;
-	cursor: pointer;
 	background-color: var(${(props) => props.bgColor});
 `;
 
