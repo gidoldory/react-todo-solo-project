@@ -8,7 +8,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import useScrollTop from '../util/useScrollTop';
 
 const MainBtnContainer = styled.div`
 	display: flex;
@@ -71,7 +70,6 @@ const GroupItem = styled.li`
 `;
 
 const TodoGroupList = () => {
-	useScrollTop();
 	const todoGroups = useSelector((state) => state.todoGroups);
 
 	return (

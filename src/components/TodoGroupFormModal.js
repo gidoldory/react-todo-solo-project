@@ -77,9 +77,9 @@ const ModalBox = styled.div`
 `;
 
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-	padding: 8px;
+	padding: 5px;
 	border-radius: 20px;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	background-color: var(--list-icon-${(props) => props.thema});
 `;
 
