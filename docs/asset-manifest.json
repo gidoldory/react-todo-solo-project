@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://github.com/gidoldory/react-todo-solo-project/static/css/main.d312c0b7.css",
-    "main.js": "https://github.com/gidoldory/react-todo-solo-project/static/js/main.a6529ada.js",
-    "static/js/787.26c46cee.chunk.js": "https://github.com/gidoldory/react-todo-solo-project/static/js/787.26c46cee.chunk.js",
-    "index.html": "https://github.com/gidoldory/react-todo-solo-project/index.html",
-    "main.d312c0b7.css.map": "https://github.com/gidoldory/react-todo-solo-project/static/css/main.d312c0b7.css.map",
-    "main.a6529ada.js.map": "https://github.com/gidoldory/react-todo-solo-project/static/js/main.a6529ada.js.map",
-    "787.26c46cee.chunk.js.map": "https://github.com/gidoldory/react-todo-solo-project/static/js/787.26c46cee.chunk.js.map"
+    "main.css": "https://gidoldory.github.io/react-todo-solo-project/static/css/main.d312c0b7.css",
+    "main.js": "https://gidoldory.github.io/react-todo-solo-project/static/js/main.818af273.js",
+    "static/js/787.26c46cee.chunk.js": "https://gidoldory.github.io/react-todo-solo-project/static/js/787.26c46cee.chunk.js",
+    "index.html": "https://gidoldory.github.io/react-todo-solo-project/index.html",
+    "main.d312c0b7.css.map": "https://gidoldory.github.io/react-todo-solo-project/static/css/main.d312c0b7.css.map",
+    "main.818af273.js.map": "https://gidoldory.github.io/react-todo-solo-project/static/js/main.818af273.js.map",
+    "787.26c46cee.chunk.js.map": "https://gidoldory.github.io/react-todo-solo-project/static/js/787.26c46cee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d312c0b7.css",
-    "static/js/main.a6529ada.js"
+    "static/js/main.818af273.js"
   ]
 }
