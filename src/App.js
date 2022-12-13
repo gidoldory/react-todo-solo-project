@@ -14,7 +14,7 @@ function App() {
 			<div className="app">
 				<Header />
 				<main>
-					<Routes>
+					<Routes basename={process.env.PUBLIC_URL}>
 						<Route exact path="/" element={<TodoGroupList />} />
 						<Route path="/alllist" element={<TodoAllList />} />
 						<Route path="/itemlist/:groupId" element={<TodoItemList />} />
