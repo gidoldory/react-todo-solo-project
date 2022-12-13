@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![todo-solo-project](https://user-images.githubusercontent.com/111366402/207260152-17e5c377-aeed-4fee-9e6c-9b26bfd2336a.gif)
 
-## Available Scripts
+## figma
+
+https://www.figma.com/file/JbtLhzJFcJWRgtmIVL778H/ToDoApp-final?node-id=0%3A1&t=HvM0PghpplRs6JCc-1
+
+### deploy
