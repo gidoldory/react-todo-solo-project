@@ -38,7 +38,6 @@ input {
 .app {
 	width: 375px;
 	height: 600px;
-	background-color: var(--white-color);
 	padding-top: 50px;
 	display: fixed;
 }

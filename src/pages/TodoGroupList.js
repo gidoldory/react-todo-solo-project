@@ -32,7 +32,7 @@ const MainBtnContainer = styled.div`
 const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
 	color: var(--white-color);
 	padding: 5px;
-	border-radius: 50px;
+	border-radius: 20px;
 	background-color: ${(props) =>
 		props.thema ? `var(--list-icon-${props.thema})` : props.color};
 `;

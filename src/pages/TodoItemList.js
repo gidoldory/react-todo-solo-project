@@ -20,6 +20,7 @@ const GroupTitle = styled.div`
 
 	.btn_prev {
 		color: var(--main-blue-color);
+		font-size: 1.5rem;
 		cursor: pointer;
 	}
 

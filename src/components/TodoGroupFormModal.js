@@ -5,12 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { todoGroupAdd } from '../redux/todoGroupsSlice';
 
-const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
-	padding: 10px;
-	border-radius: 50px;
-	background-color: var(--list-icon-${(props) => props.thema});
-`;
-
 const ModalContainer = styled.div`
 	position: fixed;
 	top: 0px;
@@ -80,6 +74,13 @@ const ModalBox = styled.div`
 			outline: 1px solid var(--main-blue-color);
 		}
 	}
+`;
+
+const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
+	padding: 8px;
+	border-radius: 20px;
+	font-size: 1.3rem;
+	background-color: var(--list-icon-${(props) => props.thema});
 `;
 
 const TodoGroupFormModal = ({ modalClose }) => {
